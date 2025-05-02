@@ -54,6 +54,7 @@ def calculate_price(simulate_func, S0, E, r, sigma, T, M, n):
 
 # ---- STREAMLIT CODE ----
 
+# Description and disclaimer so I don't get sued 
 st.title("European Option Pricing")
 st.write("Monte Carlo Simulation using Euler-Maruyama, Milstein, and Runge-Kutta Methods. Option prices computed by averaging payoffs and discounting under a risk neutral framework. Number of simulations and steps kept constant at 1000, option prices calculated using BSM as a means of comparing results from the 3 numerical methods.")
 st.write("NOTE: This is not intended to be used in the decision-making process of any investment or to be taken as financial advice.")
