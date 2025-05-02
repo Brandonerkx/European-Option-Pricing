@@ -56,7 +56,7 @@ def calculate_price(simulate_func, S0, E, r, sigma, T, M, n):
 
 st.title("European Option Pricing")
 st.write("Monte Carlo Simulation using Euler-Maruyama, Milstein, and Runge-Kutta Methods. Option prices computed by averaging payoffs and discounting under a risk neutral framework. Number of simulations and steps kept constant at 1000, option prices calculated using BSM as a means of comparing results from the 3 numerical methods.")
-st.write("NOTE: This is a practice project and NOT intended to be used in the decision-making process for any investments or to be taken as financial advice.")
+st.write("NOTE: This is not intended to be used in the decision-making process of any investment or to be taken as financial advice.")
 
 # Sliders for changing variables
 S0 = st.slider('Initial Stock Price (S₀)', min_value=20.0, max_value=1000.0, value=100.0, step=1.0)
